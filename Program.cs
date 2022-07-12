@@ -8,6 +8,7 @@ namespace T04Ejercicio21
         {
             Console.WriteLine("Escriba el día de la semana:");
             String dia = Console.ReadLine();
+            dia = dia.ToLower();
             switch (dia)
             {
                 case "lunes":
